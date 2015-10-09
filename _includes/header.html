@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang=en>
+<head>
   <meta charset="utf-8" />
 
   <title>{{ page.title }} | {{ site.name }}</title>
@@ -12,10 +13,10 @@
   <meta name="theme-color" content="{{ site.color }}" />
 
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
-
-  <body>
-    <header class="header">
-      <div class="container">
-        <h1 class="site-title"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-      </div>
-    </header>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="site-title"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+    </div>
+  </header>
