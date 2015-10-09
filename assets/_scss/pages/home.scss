@@ -1,9 +1,15 @@
 .posts {
   text-align: center;
   li {
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    margin-top: 42px;
     margin-bottom: 42px;
-    padding-bottom: 42px;
-    border-bottom: 1px solid #d6d6d6;
+    // padding-bottom: 42px;
+    // border-bottom: 1px solid #d6d6d6;
     .post-link {
       font-size: 2em;
       font-weight: 400;
@@ -24,4 +30,11 @@
       color: #333;
     }
   }
+}
+
+.divider {
+  margin: 0 auto;
+  height: 1px;
+  width: 100px;
+  background: #ddd;
 }

@@ -4,3 +4,7 @@
 
 $serif: Georgia, serif;
 $sans-serif: 'Montserrat', sans-serif;
+
+$base-font-size: (16/16)*100%;
+$baseline-unitless: 24/(16*($base-font-size/100%));
+$baseline: $baseline-unitless * 1rem;

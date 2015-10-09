@@ -12,6 +12,7 @@ in-nav: false
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         <span class="post-date"><time datetime="{{ post.date | date: "%-d %B %Y %R" }}">{{ post.date | date: "%-d %B %Y" }}</time></span>
       </li>
+      <hr class="divider"> 
     {% endfor %}
   </ul>
 </div>
