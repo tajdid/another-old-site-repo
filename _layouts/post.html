@@ -1,16 +1,16 @@
 {% include header.html %}
 
 <main class="container">
-  <article class="content">
-    <h1 class="page-title">{{ page.title }}</h1>
-    <p class="meta">{{ page.date | date_to_string }}</p>
+  <article class="post content">
+    <header class="post-header">
+      <h1 class="page-title">{{ page.title }}</h1>
+      <span class="post-meta"><time datetime="{{ post.date | date: "%-d %B %Y %R" }}">{{ post.date | date: "%-d %B %Y" }}</time></span>
+    </header>
 
     <div class="post">
-      <p><a href="https://twitter.com/share" class="twitter-share-button" data-lang="en">Tweet</a></p>
 
       {{ content }}
-      
-      <p><a href="https://twitter.com/share" class="twitter-share-button" data-lang="en">Tweet</a></p>
+
       <p>
         {% if page.previous.url %}
           <a href="{{site.baseurl}}{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
