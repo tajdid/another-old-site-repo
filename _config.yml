@@ -12,6 +12,11 @@ email: tajdidrahman@gmail.com
 twitter_username: tajdidr
 github_username:  tajdid
 
+# Stylesheets
+sass:
+  sass_dir: assets/_scss
+  style: compressed
+
 # Build settings
 markdown: kramdown
 permalink: pretty
