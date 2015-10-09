@@ -1,0 +1,17 @@
+# Site settings
+title: Tajdid Rahman
+email: tajdidrahman@gmail.com
+description: "Hi there! My name's Tajdid Rahman, but you can call me Taj. I'll write more later"
+
+baseurl: "/blog"
+url: "http://tajdid.me.uk/blog"
+permalink: /blog/:title.html
+paginate_path: "/blog/page:num"
+
+email: tajdidrahman@gmail.com
+twitter_username: tajdidr
+github_username:  tajdid
+
+# Build settings
+markdown: kramdown
+permalink: pretty
