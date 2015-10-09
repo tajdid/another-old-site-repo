@@ -10,8 +10,8 @@ in-nav: false
     {% for post in site.posts %}
       <li>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        <span class="post-date">{{ post.date | date: "%A, %d %B %Y" }} • {{ post.week }}</span>
-        <p class="excerpt">{{ post.excerpt | strip_html | truncatewords:30 }}</p>
+        <span class="post-date"><time datetime="{{ post.date | date: "%-d %B %Y %R" }}">{{ post.date | date: "%-d %B %Y" }}</time></span>
+
       </li>
     {% endfor %}
   </ul>

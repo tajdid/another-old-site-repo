@@ -1,19 +1,16 @@
 .site-header {
   background: white;
-
+  text-align: center;
   width: 100%;
   padding: 50px 0;
 
   .site-title {
-    float: left;
-  }
+    font-size: 1.5em;
+    text-transform: uppercase;
 
-  nav {
-    float: right;
-
-    li {
-      display: inline;
-      margin-left: 30px;
+    span {
+      display: block;
+      font-size: 0.6em;
     }
   }
 }
