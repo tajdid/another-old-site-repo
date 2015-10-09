@@ -4,4 +4,7 @@
 @charset "utf-8";
 
 @import
-  'tools/tools';
+  'tools/all',
+  'base/all',
+  'modules/all',
+  'pages/all';
