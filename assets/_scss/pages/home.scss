@@ -1,0 +1,20 @@
+.home {
+
+}
+
+.posts {
+  li {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #d6d6d6;
+    a {
+      font-size: 1.2em;
+      font-weight: 700;
+    }
+    span {
+      display: block;
+      font-size: 0.9em;
+      text-transform: uppercase;
+      color: #666;
+    }
+  }
+}
