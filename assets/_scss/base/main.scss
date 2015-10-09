@@ -1,9 +1,9 @@
 body {
-
+  font-family: $serif;
 }
 
 .container {
-  max-width: 1024px;
+  max-width: 960px;
   width: 100%;
   padding: 0 16px;
   margin: 0 auto;
@@ -15,9 +15,4 @@ ul {
 
 .content {
   margin: 50px 0;
-
-  .page-title {
-    font-size: 2em;
-    margin-bottom: 28px;
-  }
 }
