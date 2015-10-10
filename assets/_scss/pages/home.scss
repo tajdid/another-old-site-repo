@@ -37,4 +37,8 @@
   height: 1px;
   width: 100px;
   background: $primary-colour;
+
+  &:last-child {
+    display: none;
+  }
 }

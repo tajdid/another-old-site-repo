@@ -2,7 +2,9 @@ body {
   font-family: $serif;
 }
 
-
+::selection {
+  background: $primary-colour;
+}
 
 a {
   color: #111;

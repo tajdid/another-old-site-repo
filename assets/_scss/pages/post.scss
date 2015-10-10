@@ -1,4 +1,8 @@
 .post {
+  .page-title {
+    margin-bottom: 10px;
+  }
+  
   img {
     width: 110%;
     margin-left: calc(-4% - #{$baseline/2});
@@ -12,8 +16,10 @@
 }
 
 .post-meta {
+  text-align: center;
   display: block;
   margin-top: 10px;
+  margin-bottom: 60px;
   font-family: $sans-serif;
   font-size: 0.8em;
   text-transform: uppercase;
