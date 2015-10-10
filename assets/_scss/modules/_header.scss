@@ -27,6 +27,12 @@
     line-height: 1;
     text-transform: uppercase;
 
+    a {
+      &:hover {
+        color: #111;
+      }
+    }
+
     span {
       display: block;
       font-size: 0.6em;

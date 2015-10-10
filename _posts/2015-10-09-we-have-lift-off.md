@@ -2,14 +2,12 @@
 layout: post
 title:  "We have lift off!"
 date:   2015-10-09 23:28:30
-categories: general update
 ---
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente laboriosam doloribus deserunt quod labore unde, eum placeat provident deleniti. Nam, a, doloribus. Praesentium fugiat libero quibusdam porro quia, enim dolorem.
 
 ![Image](http://www.nasa.gov/centers/kennedy/images/content/91196main_97pc963.jpg)
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores iure, accusantium voluptas blanditiis porro at mollitia iusto, illo amet quod commodi laudantium quia quibusdam, dicta modi vel, animi impedit aliquid.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus perferendis eveniet eos recusandae veniam saepe pariatur totam beatae porro? A inventore maxime sint, eos ut repudiandae assumenda explicabo nisi hic.
+With New Year day fast approaching, I’m setting myself a small goal before this year ends. I’m going to start blogging. Yep, that’s right. Some of you know (yes, you!) that I tried this several times before, but it just faded away all the time because I’m not confident in my writing, but there’s no harm in trying again for the 400th (whoa, maybe like 4th) time, no?
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam rem blanditiis minima expedita architecto, provident dignissimos voluptas qui molestiae aliquid, sapiente porro, at, quos laudantium fuga quis ipsa ipsum ullam.
+I’m not sure yet what I will write in here or what I will share, if I do share anything as you all know it will be related to my life as a student and designer. Maybe I’ll share some design links weekly? The point is to just write, right?
+
+Well then, this should be fun!
