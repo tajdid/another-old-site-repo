@@ -3,11 +3,11 @@
     margin-bottom: 10px;
   }
   
-  img {
-    width: 110%;
-    margin-left: calc(-4% - #{$baseline/2});
-    margin-right: $baseline;
-  }
+  // img {
+  //   width: 110%;
+  //   margin-left: calc(-4% - #{$baseline/2});
+  //   margin-right: $baseline;
+  // }
 
   a {
     padding-bottom: 2px;
@@ -19,9 +19,8 @@
   }
 }
 
-.post-header {
-
-
+ol {
+  padding-left: 30px;
 }
 
 .post-meta {
@@ -34,4 +33,17 @@
   text-transform: uppercase;
   letter-spacing: 2px;
   color: #333;
+}
+
+.other-posts {
+  border-top: 1px solid #eee;
+  padding-top: 30px;
+  margin-top: 60px;
+  a {
+    border: none;
+
+    &:hover {
+      border: none;
+    }
+  }
 }
