@@ -39,6 +39,7 @@
   background: $primary-colour;
 
   &:last-child {
-    display: none;
+    // display: none;
+    visibility: hidden;
   }
 }

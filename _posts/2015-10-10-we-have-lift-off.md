@@ -5,7 +5,7 @@ permalink: we-have-lift-off
 <!-- date:   2015-10-10 10:28:30 -->
 ---
 
-![Image](http://www.nasa.gov/centers/kennedy/images/content/91196main_97pc963.jpg)
+![Image](/blog/uploads/2015/10/lift-off.jpg)
 
 With 2016 right around the corner, I’m setting myself a small goal before this year ends. I’m going to start blogging. Yep, that’s right. Some of you know (yes, you!) that I tried this several times before, but it just faded away all the time because I’m not confident in my writing, but there’s no harm in trying again for the 400th (whoa, maybe like 4th) time, no?
 
