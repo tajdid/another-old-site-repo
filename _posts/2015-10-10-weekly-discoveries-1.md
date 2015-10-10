@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Weekly Discoveries No.1"
-date:   2015-10-10 10:28:30
+<!-- date:   2015-10-10 10:28:30 -->
 ---
 
 <p><iframe src="https://player.vimeo.com/video/140875675?color=c98c55&title=0&byline=0&portrait=0" width="940" height="528" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
