@@ -5,7 +5,7 @@ description: "Hi there! My name's Tajdid Rahman, but you can call me Taj. I'll w
 
 baseurl: "/blog"
 url: "http://tajdid.me.uk/blog"
-permalink: /:title
+permalink: none
 paginate: 6
 paginate_path: /blog/page/:num
 

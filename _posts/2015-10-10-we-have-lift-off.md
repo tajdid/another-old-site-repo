@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "We have lift off!"
+permalink: we-have-lift-off
 <!-- date:   2015-10-10 10:28:30 -->
 ---
 

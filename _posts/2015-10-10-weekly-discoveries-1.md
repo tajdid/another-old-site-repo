@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Weekly Discoveries No.1"
+permalink: weekly-discoveries-1
 <!-- date:   2015-10-10 10:28:30 -->
 ---
 
