@@ -1,0 +1,13 @@
+.cf {
+  @include clearfix;
+}
+
+.fl {
+  float: left;
+  text-align: left;
+}
+
+.fr {
+  float: right;
+  text-align: right;
+}
