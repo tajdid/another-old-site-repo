@@ -1,14 +1,16 @@
+// $logo-colors: (
+//   #000000,
+//   #FFBA00,
+//   #aaaaaa,
+//   #966443
+// );
+
 $logo-colors: (
   #000000,
-  #FFBA00,
-  #aaaaaa,
-  #966443
+  #30c9e8,
+  #e8308c,
+  #e8b730
 );
-
-// $logo-colors: (
-//   one: "http://41.media.tumblr.com/3ca0e42be2a4567aaf172b8cfc285300/tumblr_n9eq8dQzOf1rp1s63o1_250.jpg",
-//   two: "http://41.media.tumblr.com/afaea4fba87f12ec70c34b57374bb27f/tumblr_nve8gp8GzE1uhc27eo1_1280.jpg"
-// );
 
 $l: length($logo-colors);
 
@@ -48,9 +50,9 @@ $l: length($logo-colors);
 .site-header {
   // background: #f6f6f6;
 
-  text-align: center;
+  // text-align: center;
   width: 100%;
-  padding: 50px 0 0;
+  padding: 50px 16px 0;
 
   .site-title {
     // animation-name: fadeInDown;

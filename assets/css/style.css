@@ -243,21 +243,21 @@ ul {
   0% {
     background: #000000; }
   25% {
-    background: #FFBA00; }
+    background: #30c9e8; }
   50% {
-    background: #aaaaaa; }
+    background: #e8308c; }
   75% {
-    background: #966443; } }
+    background: #e8b730; } }
 
 @keyframes color-cycle {
   0% {
     background: #000000; }
   25% {
-    background: #FFBA00; }
+    background: #30c9e8; }
   50% {
-    background: #aaaaaa; }
+    background: #e8308c; }
   75% {
-    background: #966443; } }
+    background: #e8b730; } }
 
 .svg {
   border-radius: 100px;
@@ -281,9 +281,8 @@ ul {
             transform: rotate(1turn) scale(1.2, 1.2); }
 
 .site-header {
-  text-align: center;
   width: 100%;
-  padding: 50px 0 0; }
+  padding: 50px 16px 0; }
   .site-header .site-title {
     font-family: "Montserrat", sans-serif;
     font-size: 1.5em;
