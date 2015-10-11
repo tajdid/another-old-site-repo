@@ -1,14 +1,22 @@
-// @keyframes fadeInDown {
-//   from {
-//     opacity: 0;
-//     transform: translate3d(0, -100%, 0);
-//   }
-
-//   to {
-//     opacity: 1;
-//     transform: none;
-//   }
-// }
+.svg {
+  width: 100%;
+  height: auto;
+  transition: all, 0.5s, ease-in-out;
+  path {
+    fill: #111;
+  }
+  .circle-stroke path {
+      fill: #ccc;
+      transition: all, 0.3s, ease-in-out;
+  }
+  
+   &:hover {
+    transform: rotate(1turn) scale(1.4, 1.4);
+     .circle-stroke path {
+       fill: #C98C54;
+     }
+   }
+}
 
 .site-header {
   // background: #f6f6f6;
@@ -26,7 +34,8 @@
     font-size: 1.5em;
     line-height: 1;
     text-transform: uppercase;
-
+    width: 70px;
+    margin: 0 auto;
     a {
       &:hover {
         color: #111;
