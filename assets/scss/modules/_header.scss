@@ -1,20 +1,47 @@
+$logo-colors: (
+  #000000,
+  #FFBA00,
+  #aaaaaa,
+  #966443
+);
+
+// $logo-colors: (
+//   one: "http://41.media.tumblr.com/3ca0e42be2a4567aaf172b8cfc285300/tumblr_n9eq8dQzOf1rp1s63o1_250.jpg",
+//   two: "http://41.media.tumblr.com/afaea4fba87f12ec70c34b57374bb27f/tumblr_nve8gp8GzE1uhc27eo1_1280.jpg"
+// );
+
+$l: length($logo-colors);
+
+
+@keyframes color-cycle {
+  @for $i from 1 through $l {
+    #{(100/$l)*($i - 1)}% {
+      background: nth($logo-colors, $i);
+    }
+  }
+}
+
 .svg {
+  border-radius: 100px;
   width: 100%;
   height: auto;
+  animation: color-cycle #{$l/8}s steps(1, end) infinite;
+  animation-play-state: paused;
   transition: all, 0.5s, ease-in-out;
   path {
-    fill: #111;
+    // fill: #111;
   }
   .circle-stroke path {
-      fill: #ccc;
-      transition: all, 0.3s, ease-in-out;
+      fill: none;
+  }
+
+  .taj path{
+    fill: white;
   }
   
    &:hover {
-    transform: rotate(1turn) scale(1.4, 1.4);
-     .circle-stroke path {
-       fill: #C98C54;
-     }
+    animation-play-state: running;
+    transform: rotate(1turn) scale(1.2, 1.2);
    }
 }
 

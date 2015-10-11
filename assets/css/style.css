@@ -239,23 +239,46 @@ ul {
 .content {
   margin: 62px 0; }
 
+@-webkit-keyframes color-cycle {
+  0% {
+    background: #000000; }
+  25% {
+    background: #FFBA00; }
+  50% {
+    background: #aaaaaa; }
+  75% {
+    background: #966443; } }
+
+@keyframes color-cycle {
+  0% {
+    background: #000000; }
+  25% {
+    background: #FFBA00; }
+  50% {
+    background: #aaaaaa; }
+  75% {
+    background: #966443; } }
+
 .svg {
+  border-radius: 100px;
   width: 100%;
   height: auto;
+  -webkit-animation: color-cycle 0.5s steps(1, end) infinite;
+          animation: color-cycle 0.5s steps(1, end) infinite;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
   -webkit-transition: all, 0.5s, ease-in-out;
           transition: all, 0.5s, ease-in-out; }
-  .svg path {
-    fill: #111; }
   .svg .circle-stroke path {
-    fill: #ccc;
-    -webkit-transition: all, 0.3s, ease-in-out;
-            transition: all, 0.3s, ease-in-out; }
+    fill: none; }
+  .svg .taj path {
+    fill: white; }
   .svg:hover {
-    -webkit-transform: rotate(1turn) scale(1.4, 1.4);
-        -ms-transform: rotate(1turn) scale(1.4, 1.4);
-            transform: rotate(1turn) scale(1.4, 1.4); }
-    .svg:hover .circle-stroke path {
-      fill: #C98C54; }
+    -webkit-animation-play-state: running;
+            animation-play-state: running;
+    -webkit-transform: rotate(1turn) scale(1.2, 1.2);
+        -ms-transform: rotate(1turn) scale(1.2, 1.2);
+            transform: rotate(1turn) scale(1.2, 1.2); }
 
 .site-header {
   text-align: center;
