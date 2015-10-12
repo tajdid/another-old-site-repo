@@ -12,8 +12,116 @@
 
 .hero {
   background-color: #f1f1f1;
-  .hero {
+  .hero-content {
+    width: 100%;
+    text-align: center;
+  }
+  @include media($tablet) {
+    .hero-content {
+      width: 940px;
+      text-align: center;
+    }
 
+    .hero-text {
+      font-size: 4.4em;
+      font-weight: 400;
+      line-height: 1.2;
+    }
+
+    .hero-sub {
+      color: #9a9a9a;
+      line-height: 1.8;
+    }
+  }
+}
+
+.work {
+  background-color: #111;
+  &-thumbnail {
+    // margin-bottom: 2%;
+  }
+  .work-title {
+    display: none;
+  }
+  @include media($tablet) {
+    &-thumbnail {
+      float: left;
+      display: block;
+      width: 33.33%;
+      margin-bottom: -14px;
+      position: relative;
+      overflow: hidden;
+      background: black;
+
+      .work-title {
+        display: block;
+        position: absolute;
+        z-index: 10;
+        margin: 0;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        // font-size: 1.1em;
+        // text-transform: uppercase;
+        // letter-spacing: 0px;
+        opacity: 0;
+        transition: all 0.3s ease-in-out;
+      }
+
+      // .work-title {
+      //   display: block;
+      //   position: absolute;
+      //   z-index: 10;
+      //   margin: 0;
+      //   top: 60%;
+      //   left: 50%;
+      //   transform: translate(-50%, -50%);
+      //   color: #111;
+      //   font-size: 1em;
+      //   text-transform: uppercase;
+      //   letter-spacing: 1px;
+      //   opacity: 0;
+      //   transition: all 0.3s ease-in-out;
+
+      //   &::before {
+      //     content: '';
+      //     position: absolute;
+      //     z-index: -1;
+      //     height: 30px;
+      //     width: 115%;
+      //     top: 50%;
+      //     left: 50%;
+      //     transform: translate(-50%, -1%) scaleX(0);
+      //     margin-top: -15px;
+      //     right: 0;
+      //     background: white;
+      //     transition: all 0.3s ease-in-out;
+      //   }
+      // }
+      
+      img {
+        display: table-cell;
+        opacity: 1;
+        transform: scale(1, 1);
+        transition: all 0.3s ease-in-out;
+        backface-visibility: hidden;
+      }
+
+      &:hover {
+
+        .work-title {
+          top: 50%;
+          opacity: 1;
+          // letter-spacing: 3px;
+        }
+
+        img {
+          transform: scale(1.05, 1.05);
+          opacity: 0.4;
+        }
+      }
+    }
   }
 }
 // .wrap {

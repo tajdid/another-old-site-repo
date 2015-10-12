@@ -27,6 +27,23 @@ a {
   margin: 0 auto;
 }
 
+.flex-vcenter {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-item {
+  flex: 1;
+
+}
+
+.flex-item_fix {
+  flex: none;
+  max-width: 50%;
+}
+
 ul {
   list-style: none;
 }
