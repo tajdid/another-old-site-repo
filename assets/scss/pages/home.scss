@@ -1,12 +1,53 @@
 .home {
-  display: table;
+  // overflow-x: scroll;
+  // overflow-y: hidden;
+
+}
+
+.full-block {
   position: relative;
   width: 100%;
   height: 100vh;
 }
 
-.block {
-  @include span-columns(4);
-  @include omega;
-  height: 100vh;
+.hero {
+  background-color: #f1f1f1;
+  .hero {
+
+  }
 }
+// .wrap {
+//   white-space: nowrap;
+//   max-width: none;
+// }
+
+// .block {
+//   white-space: normal;
+//   display: inline-block;
+//   vertical-align: top;
+// }
+
+// .block-wrap {
+//   top: -50%;
+//   transform: translateY(50%);
+// }
+
+// .info {
+//   // background: black;
+//   // color: white;
+// }
+
+// .work {
+//   height: 100vh;
+//   @include span-columns(4);
+//   display: inline-block;
+//   // @include omega;
+// }
+
+// .nasa {
+
+//   background-position: center;
+//   background-size: cover;
+//   color: white;
+//   background-image: url('http://history.nasa.gov/ap11ann/kippsphotos/39961.jpg');
+// }
