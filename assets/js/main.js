@@ -1,5 +1,12 @@
 $(".header-fixed").headroom();
 
+$(document).ready(function() {
+    $('.home').fullpage({
+      anchors:['firstPage', 'secondPage'],
+      sectionSelector: '.full-block'
+    });
+});
+
 $(document).ready(function(){
   // Target your .container, .wrapper, .post, etc.
   $(".post").fitVids();
