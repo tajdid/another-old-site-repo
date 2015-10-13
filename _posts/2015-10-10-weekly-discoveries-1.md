@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Weekly Discoveries No.1"
-permalink: weekly-discoveries-1
+title:  "Discover Weekly No.1"
+permalink: discover-weekly-1
 <!-- date:   2015-10-10 10:28:30 -->
 ---
 
@@ -13,4 +13,4 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam recusandae 
 
 
 1. [Design Disruptors](http://www.designdisruptors.com/) - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur neque accusantium voluptate aliquam modi cumque quae, eius magnam.
-2. [Design Disruptors](http://www.designdisruptors.com/) - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur neque accusantium voluptate aliquam modi cumque quae, eius magnam.
+2. [Material Colors](http://materialuicolors.co/) - A really simple and easy to use colour palette for material design. Just click, pick and go!

@@ -47,6 +47,24 @@ $l: length($logo-colors);
    }
 }
 
+.blog-header {
+  text-align: center;
+  padding: 40px 0;
+  @include clearfix;
+
+  &__title {
+    font-family: $sans-serif;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    span {
+      display: block;
+      font-size: 0.7em;
+    }
+  }  
+}
+
 
 .site-header {
   // background: white;
