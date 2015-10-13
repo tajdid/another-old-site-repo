@@ -9,7 +9,7 @@ permalink: discover-weekly-1
 <small class="caption">[Design Disruptors](http://www.designdisruptors.com/) trailer</small>
 </p>
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam recusandae ipsam doloremque cumque doloribus, odit aliquid delectus mollitia reprehenderit animi soluta commodi magnam laudantium dolorum, quis blanditiis pariatur beatae cupiditate.
+Here's the first take on what has piqued my interest the past week. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam recusandae ipsam doloremque cumque doloribus, odit aliquid delectus mollitia reprehenderit animi soluta commodi magnam laudantium dolorum, quis blanditiis pariatur beatae cupiditate.
 
 
 1. [Design Disruptors](http://www.designdisruptors.com/) - This is a trailer for a documentary titled _"Design Disruptors"_ made by the awesome people at [InVision](http://invisionapp.com). The film reveals design’s role as a key competitive advantage at Airbnb, Google, Pinterest, and more.
