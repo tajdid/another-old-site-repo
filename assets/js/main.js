@@ -1,5 +1,3 @@
-$(".header-fixed").headroom();
-
 $(document).ready(function() {
     $('.home').fullpage({
       anchors:['firstPage', 'secondPage'],
